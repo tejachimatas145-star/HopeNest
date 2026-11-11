@@ -1,4 +1,4 @@
-
+import ContactForm from "./contactForm";
 import { useState } from "react";
 import {
   ArrowRight,
@@ -333,6 +333,7 @@ function App() {
             Explore helpful resources and take the time to understand
             the adoption journey.
           </p>
+          <ContactForm />
           <a href="#journey" className="cta-button">
             Explore HopeNest <ArrowRight size={18} />
           </a>

@@ -893,3 +893,51 @@ h1, h2 {
     grid-template-columns: 1fr;
   }
 }
+
+#contact form {
+  display: flex !important;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  max-width: 480px;
+  margin: 35px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+#contact form h2 {
+  color: #355b45;
+}
+
+#contact form input,
+#contact form textarea {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: white;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+#contact form button {
+  padding: 14px;
+  background: #355b45;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#contact form .success-message {
+  color: #247344;
+  background: #e9f7ee;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 500;
+}
